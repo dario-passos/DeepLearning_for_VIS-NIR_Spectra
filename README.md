@@ -29,6 +29,8 @@ TPE optimization of the CNN hyperparameters and a brief study of the interpretab
 of spectral features
 
 Check the .ipynb notebook for details [Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb](/notebooks/Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb)
+The notebook might seem long but this is due to the fact that on github there is no clipping of the output of the computation
+cells.
 
 
 ### more in the near future...
