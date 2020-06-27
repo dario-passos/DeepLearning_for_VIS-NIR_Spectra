@@ -34,7 +34,7 @@ some chemical compound (Y). The error metrics obtained with an "optimal" PLS mod
 CNN model. The pipeline includes spectra pre-processing, outlier removal, implementation and optimization of a PLS model 
 (that serves as error metric baseline), implementation of a CNN model, Bayesian optimization of the CNN hyper-parameters, 
 TPE optimization of the CNN hyper-parameters and a brief study of the interpretability of the CNN activations in terms
-of spectral features
+of spectral features.
 
 Check the .ipynb notebook for details [Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb](/notebooks/Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb)
 The notebook might seem long but this is due to the fact that on GitHub there is no clipping of the output of the computation
