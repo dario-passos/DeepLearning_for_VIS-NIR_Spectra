@@ -20,7 +20,7 @@ At some point I'll build a list of interesting online resources on these topics.
 
 
 This is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]).
-For some exchange of ideas, drop me an email (dmpassos @ uagl.pt)
+For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)
 
 <hr>
 
@@ -36,9 +36,9 @@ CNN model. The pipeline includes spectra pre-processing, outlier removal, implem
 TPE optimization of the CNN hyper-parameters and a brief study of the interpretability of the CNN activations in terms
 of spectral features.
 
-Check the .ipynb notebook for details [Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb](/notebooks/Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb)
+Check the .ipynb notebook for details [Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb](/notebooks/Bjerrum2017_CNN/BayesOpt_CNN1.2.ipynb).
 The notebook might seem long but this is due to the fact that on GitHub there is no clipping of the output of the computation
-cells.
+cells (the training steps outputs are visible).
 
 
 ### more in the near future...
