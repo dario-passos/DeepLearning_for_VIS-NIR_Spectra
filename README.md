@@ -1,6 +1,6 @@
 # DeepLearning for VIS-NIR Spectral Analysis
 
-This repository contains some of my research test about the application of 
+This repository contains some of my research tests about the application of 
 Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
 Here are some of my personal implementation of interesting NN architectures that can be found in the literature about 
 DeepLearning for spectral analysis. These implementations are done mainly in <code>python</code> and <code>tensorflow.keras</code> in Jupyter notebooks. In some cases I'll try to reproduce the results presented by the original paper authors as 
