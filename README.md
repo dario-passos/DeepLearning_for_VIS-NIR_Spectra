@@ -3,17 +3,17 @@
 This repository contains some of my research test about the application of 
 Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
 Here are some of my personal implementation of interesting NN architectures that can be found in the literature about 
-DeepLearning for spectral analysis. In some cases I'll try to reproduce the results presented by the original paper authors as 
-a way to validate my implementation before applying the model to my own datasets. 
+DeepLearning for spectral analysis. These implementations are done mainly in <code>python</code> and <code>tensorflow.keras</code> in Jupyter notebooks. In some cases I'll try to reproduce the results presented by the original paper authors as 
+a way to validate my implementation before applying the model to my own datasets. The folder "images" contains schematics of the NN models implemented in the notebooks. 
 
 During my research I tend to do a lot of exploratory analysis, during which I learn and implement many new things 
 for the first time. However, often these exploratory studies/tests get "lost is translation" and I tend to forget 
 about some of the stuff I did (python functions, tricks, algorithms...). This repository is also an attempt to discipline 
-myself and be a bit more organized research-wise. I include many comments in the notebooks so that I can remember what 
-I did in the past. I also find this useful for collaborations since its easier for colleagues and other researchers to 
-understand what and why some stuff was done.
+myself and be a bit more organized research-wise. I try to include many comments in the notebooks so that I can remember what 
+I did in the past. This is also useful for collaborations since its easier for colleagues and other researchers to 
+understand what and why some stuff was done. That is one of the reasons I thought of sharing these notebooks here in GitHub. 
 
-Please feel free to take a look around and see if you find anything useful for your own research. Be aware of possible 
+Please feel free to take a look around and see if you find anything useful for your own research. If Be aware of possible 
 bugs in the codes!! 
 
 At some point I'll build a list of interesting online resources on these topics...
