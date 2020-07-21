@@ -1,0 +1,31 @@
+Dataset 3 used in Cui, Fearn 2018
+
+Source: http://www.models.kvl.dk/wheat_kernels
+
+Wheat Kernels
+ 
+Sample description
+
+Wheat kernels (415) representing 43 different varieties or variety mixtures from two different 
+locations in Denmark made up the calibration set, while wheat kernels (108) representing 11 
+different varieties from one location made up the test set10. All kernels were randomly chosen 
+from bulk samples. The test samples were acquired with the calibration samples, but stored for 
+about 2 additional months before measurement in order to provide a check for temporal drift in 
+the samples and instrumentation.
+ 
+ 
+
+Data (Matlab format)
+
+
+ 
+
+References
+
+
+1. Dorthe Kjær Pedersen, Harald Martens, Jesper Pram Nielsen and Søren Balling Engelsen. 2002. 
+Near infrared absorption and scattering separated by Extended Inverted Signal Correction (EISC). 
+Analysis of NIT spectra of single wheat seeds. Applied Spectroscopy, submitted.
+
+2. Jesper Pram Nielsen, Dorthe Kjær Pedersen and Lars Munck. 2002. Development of non-destructive 
+screening methods for single kernel characterisation of wheat. Cereal Chemistry, submitted.
