@@ -1,6 +1,7 @@
 # DeepLearning for VIS-NIR Spectral Analysis
 
-This repository contains some of my research tests about the application of 
+This repository is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]) and 
+contains some of my research tests about the application of 
 Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
 Here are some of my personal implementation of interesting NN architectures that can be found in the literature about 
 DeepLearning for spectral analysis. These implementations are done mainly in <code>python</code> and <code>tensorflow.keras</code> in Jupyter notebooks. In some cases I'll try to reproduce the results presented by the original paper authors as 
@@ -16,12 +17,11 @@ understand what and why some stuff was done. That is one of the reasons I though
 Please feel free to take a look around and see if you find anything useful for your own research. Be aware of possible 
 bugs in the codes!! 
 
-At some point I'll build a list of interesting online resources on these topics...
+This repository will be continuoulsy updated. At some point I'll also introduce a list of interesting online resources on these topics...
 
 
-This is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]).
-My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos)
-For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)
+My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos).<br>
+For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
 <hr>
 
