@@ -13,13 +13,14 @@ myself and be a bit more organized research-wise. I try to include many comments
 I did in the past. This is also useful for collaborations since its easier for colleagues and other researchers to 
 understand what and why some stuff was done. That is one of the reasons I thought of sharing these notebooks here in GitHub. 
 
-Please feel free to take a look around and see if you find anything useful for your own research. If Be aware of possible 
+Please feel free to take a look around and see if you find anything useful for your own research. Be aware of possible 
 bugs in the codes!! 
 
 At some point I'll build a list of interesting online resources on these topics...
 
 
 This is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]).
+My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos)
 For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)
 
 <hr>
