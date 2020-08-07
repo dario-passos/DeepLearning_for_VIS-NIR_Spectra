@@ -1,5 +1,6 @@
-# DeepLearning for VIS-NIR Spectral Analysis
+![Logo](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/github_card.png)
 
+# DeepLearning for VIS-NIR Spectral Analysis
 This repository is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]) and 
 contains some of my research tests about the application of 
 Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
