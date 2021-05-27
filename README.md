@@ -55,6 +55,8 @@ From a Physics/Chemistry point of view, many researchers need to find which spec
 
 Check the .ipynb notebook for details [CuiFearn2018_CNN/Cui_CNN.ipynb](/notebooks/CuiFearn2018_CNN/Cui_CNN.ipynb).
 
+<br>
+
 
 ## SVM hyperparameters optimization, Kaneko and Funatsu 2015
 
