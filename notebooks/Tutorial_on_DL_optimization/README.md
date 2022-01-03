@@ -1,8 +1,8 @@
 # Tutorial on automated optimization of deep spectral modelling for regression and classification
- This repository contains the companion notebooks for Passos, Mishra 2021, Automated optimization of deep spectral modelling for regression and classification: A tutorial". This work is in progress and the main manuscript is still under peer review process (October 2021). If by any chance you stumble uppon this repo, you are free to use the contained information but I kindly ask not to spread the word around until the peer review is completed. I will update this page properly when it happens. Thanks.
+ This repository contains the companion notebooks for Passos, Mishra 2021, "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks". This work is in progress and the main manuscript is still under peer review process (October 2021). If by any chance you stumble uppon this repo, you are free to use the contained information but I kindly ask not to spread the word around until the peer review is completed. I will update this page properly when it happens. Thanks.
  
  
-APPENDIX A: Suggestion about how to install the necessary software to run the tutorial for automated spectral modelling
+Suggestion about how to install the necessary software to run the tutorial for automated spectral modelling
 
 1) Install Miniconda3 from https://docs.conda.io/en/latest/miniconda.html
 2) Launch the conda prompt
