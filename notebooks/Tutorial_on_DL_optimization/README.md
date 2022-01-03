@@ -1,5 +1,5 @@
 # Tutorial on automated optimization of deep spectral modelling for regression and classification
- This repository contains the companion notebooks for Passos, Mishra 2021, "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks". This work is in progress and the main manuscript is still under peer review process (October 2021). If by any chance you stumble uppon this repo, you are free to use the contained information but I kindly ask not to spread the word around until the peer review is completed. I will update this page properly when it happens. Thanks.
+ This repository contains the companion notebooks for *Passos, Mishra 2021, "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*. This work is in progress and the main manuscript is still under peer review process (October 2021). If by any chance you stumble uppon this repo, you are free to use the contained information but I kindly ask not to spread the word around until the peer review is completed. I will update this page properly when it happens. Thanks.
 
 Notebook on optimization for a [regression DL model](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/notebooks/Tutorial_on_DL_optimization/optimization_tutorial_regression.ipynb)
 
