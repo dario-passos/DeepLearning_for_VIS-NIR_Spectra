@@ -1,6 +1,6 @@
 
 # Tutorial on automated optimization of deep spectral modelling for regression and classification
- This repository contains the companion notebooks for *Passos, Mishra 2021, "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*. This work is in progress and the main manuscript is still under peer review process (October 2021). If by any chance you stumble uppon this repo, you are free to use the contained information but I kindly ask not to spread the word around until the peer review is completed. I will update this page properly when it happens. Thanks.
+This repository contains the companion notebooks for *Passos, Mishra 2021, "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*. This work is in progress and the main manuscript is still under peer review process (revised version submitted in January 2021). If by any chance you stumble uppon this repo, you are free to use the contained information but I kindly ask not to spread the word around until the peer review is completed. I will update this page properly when it happens. Thanks.
 
 1) Notebook on optimization for a <a href="https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/notebooks/Tutorial_on_DL_optimization/1)%20optimization_tutorial_regression.ipynb" target="_top">regression DL model</a>
 
@@ -10,7 +10,7 @@
 
 Suggestion about how to install the necessary software to run the tutorial for automated spectral modelling
 
-1) Install Miniconda3 from https://docs.conda.io/en/latest/miniconda.html
+1) On Windows PCs, you can install Miniconda3 from https://docs.conda.io/en/latest/miniconda.html
 2) Launch the conda prompt
 3) In the shell, create a new conda environment using and setting it to python 3.6:
 user> conda create --name tutorial_env python=3.6
@@ -36,3 +36,10 @@ If you have a GPU available you might opt for installing the tensorflow GPU vers
 	user> jupyter-notebook
 this will open an instance of the Jupyter Notebook on your browser.
 7) Browse to where you saved the tutorial .ipynb file, open it and start running it cell by cell.
+
+
+*Update:*
+The notebooks were sucessfully tested with a more up to date version of the packages, on a linux Ubuntu-Mate 21.1 (DL models running on CPU)
+Everything worked well using python 3.8 and packages: Tensorflow (2.7.0), Tensorflow add-ons (0.15.0), tqdm (4.60.0), Numpy (1.19.5),Pandas (1.3.5), Optuna  2.10.0, Scikit-Learn (1.0.2)
+
+[Dário Passos](dmpassos@ualg.pt)
