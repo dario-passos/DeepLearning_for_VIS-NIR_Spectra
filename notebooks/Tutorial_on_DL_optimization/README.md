@@ -19,18 +19,18 @@ During this process, anaconda will create an enviroment with the python base fil
 user> conda activate tutorial_env
 In principle the pip package manager should be installed by default when the new environment is created. If you do a "pip" command and you get an error back, install it using:
 user> conda install pip
-5) We will use the pip package manager to install all the other necessary packages:
-user> pip install tensorflow==2.5.0
-user> pip install tensorflow_addons==0.13.0
-user> pip install pandas==1.1.0
-user> pip install tqdm==4.46.0
-user> pip install scipy==1.5.4
-user> pip install scikit-learn==0.24.2
-user> pip install seaborn==0.11.0
-user> pip install matplotlib==3.3.4
-user> pip install jupyter
-user> pip install optuna=2.9.1
-user> pip install livelossplot
+5) We will use the pip package manager to install all the other necessary packages:<br>
+	user> pip install tensorflow==2.5.0<br>
+	user> pip install tensorflow_addons==0.13.0<br>
+	user> pip install pandas==1.1.0<br>
+	user> pip install tqdm==4.46.0<br>
+	user> pip install scipy==1.5.4<br>
+	user> pip install scikit-learn==0.24.2<br>
+	user> pip install seaborn==0.11.0<br>
+	user> pip install matplotlib==3.3.4<br>
+	user> pip install jupyter<br>
+	user> pip install optuna=2.9.1<br>
+	user> pip install livelossplot<br>
 If you have a GPU available you might opt for installing the tensorflow GPU version by following the instructions at: https://www.tensorflow.org/install/gpu
 6) Assuming everything when ok during the install process, we can now launch the jupyter app
 	user> jupyter-notebook
