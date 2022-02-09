@@ -1,0 +1,46 @@
+DATA USED IN THE REGRESSION TUTORIAL:
+
+The data set used in this study has a total of 11,691 NIR spectra (684–990 ​nm in 3 ​nm sampling with a total 103 variables) 
+and Dry Matter (DM %) measurements performed on 4675 mango fruit across 4 harvest seasons 2015, 2016, 2017 and 2018.
+The provided data set has been cleaned by removing a few outliers from the original data by using Hotelling’s T2 and Q 
+statistics from a PLS decomposition. The version of the data used in this tutorial is a concatenation of the original 
+spectra with its SNV, 1st deriv, 2nd deriv, SNV+1st deriv and SNV+2nd deriv.
+
+File name: mango_dm_full_outlier_removed2.mat
+File type: MATLAB
+
+More details about this version of the data in:
+P. Mishra, D. Passos, A synergistic use of chemometrics and deep learning improved the predictive performance 
+of near-infrared spectroscopy models for dry matter prediction in mango fruit, Chemometrics and Intelligent 
+Laboratory Systems, (2021) 104287
+https://doi.org/10.1016/j.chemolab.2021.104287
+
+and the original data set: https://data.mendeley.com/datasets/46htwnp833/2
+
+N.T. Anderson, K.B. Walsh, P.P. Subedi, C.H. Hayes, Achieving robustness across season, 
+location and cultivar for a NIRS model for intact mango fruit dry matter content, 
+Postharvest Biology and Technology, 168 (2020) 111202.
+https://doi.org/10.1016/j.postharvbio.2020.111202
+
+
+
+
+DATA USED IN THE CLASSIFICATION TUTORIAL:
+
+The wheat dataset shared here is a copy of the original dataset available at https://github.com/L-Zhou17/Wheat-kernels
+It contains a NIR spectral dataset of wheat kernels of 30 varieties. 
+Columns 1 to 200 correspond to the spectral variables and the last column contains the varieties labels.
+According to the instructions of the authors (Zhou et al 2020), 
+i) DT_train-1.csv,DT_train-2.csv,DT_train-3.csv,DT_train-4.csv,DT_train-5.csv, are concatenated (vertically) and redifined as training data
+ii) The same is used to create the validation set from 'DT_val#.csv', files and
+iii) the test set from 'DT_test#.csv' files.
+
+File names: DT_###.csv
+File types: Comma Separated Values (.csv)
+
+More details about the data in: 
+L. Zhou, C. Zhang, M.F. Taha, X. Wei, Y. He, Z. Qiu, Y. Liu, Wheat kernel variety
+identification based on a large near-infrared spectral dataset and a novel deep
+learning-based feature selection method, Front. Plant Sci. 11 (2020) 1682.
+https://doi.org/10.3389/fpls.2020.575810
+
