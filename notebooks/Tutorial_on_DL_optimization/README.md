@@ -42,4 +42,4 @@ this will open an instance of the Jupyter Notebook on your browser.
 The notebooks were sucessfully tested with a more up to date version of the packages, on a linux Ubuntu-Mate 21.1 (DL models running on CPU)
 Everything worked well using python 3.8 and packages: Tensorflow (2.7.0), Tensorflow add-ons (0.15.0), tqdm (4.60.0), Numpy (1.19.5),Pandas (1.3.5), Optuna  2.10.0, Scikit-Learn (1.0.2)
 
-05/01/2022, Dário Passos, dmpassos@ualg.pt
+16/02/2022, Dário Passos, dmpassos@ualg.pt
