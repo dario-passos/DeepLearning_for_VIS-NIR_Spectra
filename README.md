@@ -1,6 +1,6 @@
 ![Logo](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/github_card.png)
 
-# Deep Learning for VIS-NIR Spectral Analysis and Chemometrics
+# <b>Deep Learning for VIS-NIR Spectral Analysis and Chemometrics</b>
 This repository is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]) and 
 contains some of my research tests about the application of 
 Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
@@ -26,7 +26,7 @@ For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
 <hr>
 
-## CNN MODELS
+## Deep Learning models in the literature
 ### Bjerrum et al 2017 CNN
 
 In this notebook I try to reproduce the spectral analysis pipeline that was proposed by Bjerrum et al 2017 in "*Data Augmentation of Spectral Data for Convolutional Neural Network (CNN) Based Deep Chemometrics*" ( [paper here](https://arxiv.org/abs/1710.01927) ). 
@@ -57,8 +57,8 @@ Check the .ipynb notebook for details [CuiFearn2018_CNN/Cui_CNN.ipynb](/notebook
 
 <br>
 
-
-## SVM hyperparameters optimization, Kaneko and Funatsu 2015
+## TUTORIALS
+### SVM hyperparameters optimization, Kaneko and Funatsu 2015
 
 In this notebook I'll show one way of performing hyperparameter optimization for Support Vector Machines (with rbf kernel) models when applied to regression problems. From experience I can say that the method works relatively well (depending on the data set of course) when compared to classical grid search and random grid search methods.
 
@@ -76,5 +76,10 @@ Support Vector Machines for regression has been used in recent years with great 
 In Kaneko and Funatsu 2015, the authors show that a good estimate of parameter  𝐶  can be obtained analytically from the statistical distribution of the calibration data and, parameter  𝜖  can be obtained directly from a noise estimation in the data based on the mean squared error of a k Nearest Neighbors regressor algorithm. The theoretical value of  𝛾  is determined by maximizing the variance of kernel similarity diversity as detailed in Cherkassky and Ma 2004. However, these theoretical parameters, are not optimized for prediction because of the statistical fluctuations that can exist in different sections of the calibration/training data. Fine-tuned values can be found in by probing an interval around these theoretical values. This part of the optimization process takes two hyper-parameters (e.g.  𝐶  and  𝛾 ) as constant (equal to their theoretical values) and optimizes the 3rd one (e.g.  𝜖 ) by Random Grid Search (RGS) and minimization of RMSE using 5k cross-validation. This is done 3 times optimizing all hyper-parameters. It seems that for this method to work reliably the input data should lie in the [0,1] range.
 
 Check the .ipynb notebook for details [KanekoFunatsu2015_SVROpt/SVM_optimization.ipynb](/notebooks/KanekoFunatsu2015_SVROpt/SVM_optimization.ipynb).
+
+### Tutorial on automated optimization of deep spectral modelling for regression and classification
+In this tutorial we show how to implement and optimized the hyperparameteres of a deep learning model (CNN) using advanced Baeysian Optimization techniques. The models are implemented in Tensorflow 2 and python and are optimized using the implementations of TPE (Tree-structured Parzen Estimator) and Hyperband algorithms available in [Optuna](https://optuna.org/). The repository files contain notebooks that are complementary to the official publication <b>*Passos, D., Mishra, P., "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*, Chemometrics and Intelligent Laboratory Systems, Volume 223, 15 April 2022, 104520. [Open access Article](https://doi.org/10.1016/j.chemolab.2022.104520).</b> The tutorial files are self-contained but some theoretical concepts that are explained in the published manuscript might be useful to read. You are free to use the contained information and adapt the accompanying code to your own work, but if you do so, we appreciate that you cite the above mentioned paper. Enjoy...
+
+
 
 ### more in the near future...
