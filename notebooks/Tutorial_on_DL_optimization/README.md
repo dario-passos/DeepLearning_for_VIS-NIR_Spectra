@@ -1,6 +1,6 @@
 
 # Tutorial on automated optimization of deep spectral modelling for regression and classification
-This repository contains the companion notebooks for *Passos, Mishra 2021, "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"* recently accepted in Chemometrics and Intelligent Laboratory Systems (Fev. 2022). I will link the official paper here as soon as it finishes the proofing stage. I will update this page properly when it happens. You are free to use the contained information and adapt the accompanying code to your own work, but if you do so, we appreciate that you cite the above mentioned paper. Thanks.
+This repository contains the companion notebooks for *Passos, D., Mishra, P., "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*, Chemometrics and Intelligent Laboratory Systems, Volume 223, 15 April 2022, 104520. [Open access Article](https://doi.org/10.1016/j.chemolab.2022.104520). You are free to use the contained information and adapt the accompanying code to your own work, but if you do so, we appreciate that you cite the above mentioned paper. Thanks.
 
 1) Notebook on optimization for a <a href="https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/notebooks/Tutorial_on_DL_optimization/1)%20optimization_tutorial_regression.ipynb" target="_top">regression DL model</a>
 
