@@ -77,7 +77,7 @@ In Kaneko and Funatsu 2015, the authors show that a good estimate of parameter  
 
 Check the .ipynb notebook for details [KanekoFunatsu2015_SVROpt/SVM_optimization.ipynb](/notebooks/KanekoFunatsu2015_SVROpt/SVM_optimization.ipynb).
 
-### Tutorial on automated optimization of deep spectral modelling for regression and classification (NEW!)
+### Tutorial on automated optimization of deep spectral modelling for regression and classification
 In this tutorial we show how to implement and optimized the hyperparameteres of a deep learning model (CNN) using advanced Baeysian Optimization techniques. The models are implemented in Tensorflow 2 and python and are optimized using the implementations of TPE (Tree-structured Parzen Estimator) and Hyperband algorithms available in [Optuna](https://optuna.org/). The repository files contain notebooks that are complementary to the official publication <b>*Passos, D., Mishra, P., "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*, Chemometrics and Intelligent Laboratory Systems, Volume 223, 15 April 2022, 104520. [Open access Article](https://doi.org/10.1016/j.chemolab.2022.104520).</b> The tutorial files are self-contained but some theoretical concepts that are explained in the published manuscript might be useful to read. You are free to use the contained information and adapt the accompanying code to your own work, but if you do so, we appreciate that you cite the above mentioned paper. Enjoy...
 
 Check [the tutorial files here](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Tutorial_on_DL_optimization)
