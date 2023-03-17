@@ -84,7 +84,7 @@ Check [the tutorial files here](https://github.com/dario-passos/DeepLearning_for
 
 
 > __March 2023 update__  
-The tutorial files were updated to work with newer versions of Optuna, Tensorflow and python. The main changes come from the Optuna library. All modifications are implemented into 2 new notebooks versions (that end with _v2) and are highlighted in red text, describing what has changed.
+The tutorial files were updated to work with newer versions of Optuna (3.0.5), Tensorflow (2.9.1 and up) and python (3.10.5). The main changes come from the Optuna library. All modifications are implemented into 2 new notebooks versions (that end with _v2) and are highlighted in red text, describing what has changed.
 
 
 ### more in the near future...
