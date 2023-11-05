@@ -92,4 +92,7 @@ BUG UPDATE!!
 **In terms of practical effects this means that the reported model complexity is higher than the real model. Our conclusion that the optimized model <code>model454 = create_model(5, [360,350,132,442,334], 3, [0.555,0.165,0.13,0.46,0.085], 1e-05)</code> had 5 optimized DENSE/DROPOUT layers means that in fact it had 4 optimized DENSE/DROPOUT layers with [350,132,442,334] / [0.165,0.13,0.46,0.085] respectively. That being said, the optimization pipeline suggested here remains valid and a useful way of dealing with CNN HPO for spectral analysis. This notebook will remain as is for the mean time for warning purposes and will be completely substituted with a corrected version after some time. Do a local search for #BUG keyword/comments in the present code to know where things will change**
 
 
+### Deep Tutti Frutti: Exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra
+New work (and corresponsing notebooks) will be available soon after online proof corrections...
+
 ### more in the near future...
