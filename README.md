@@ -57,7 +57,7 @@ Check the .ipynb notebook for details [CuiFearn2018_CNN/Cui_CNN.ipynb](/notebook
 
 <br>
 
-## TUTORIALS
+## TUTORIALS and PUBLICATIONS
 ### SVM hyperparameters optimization, Kaneko and Funatsu 2015
 
 In this notebook I'll show one way of performing hyperparameter optimization for Support Vector Machines (with rbf kernel) models when applied to regression problems. From experience I can say that the method works relatively well (depending on the data set of course) when compared to classical grid search and random grid search methods.
@@ -93,6 +93,8 @@ BUG UPDATE!!
 
 
 ### Deep Tutti Frutti: Exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra
-New work (and corresponsing notebooks) will be available soon after online proof corrections...
+The accompaning notebooks of our work: [Passos, D., Mishra, P.,"Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra"](https://doi.org/10.1016/j.chemolab.2023.105023) (available in open access). This is a follow-up of the CNN HPO methodology developed and presented in the previous tutorial specifically aimed at dry matter prediction in a multi-fruit data set.
+
+Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I) 
 
 ### more in the near future...
