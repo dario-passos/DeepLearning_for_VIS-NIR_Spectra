@@ -1,8 +1,8 @@
 # <b>Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra</b>
 
-In this repository I share the python code used to produce the results of our paper *Passos, D., Mishra, P.,*
+In this repository I share the python code used to produce the results of our paper *[Passos, D., Mishra, P.,*
 *"Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit* 
-*near-infrared spectra", Chemometrics and Intelligent Laboratory Systems, November 2023*.
+*near-infrared spectra", Chemometrics and Intelligent Laboratory Systems 105023, (2023)](https://doi.org/10.1016/j.chemolab.2023.105023)*.
 
 The results should be reproducible by using the same version of the libraries. If reproduction of the 
 results is your goal, please import and install the requirement.txt file in attach in your conda environment
@@ -10,10 +10,11 @@ results is your goal, please import and install the requirement.txt file in atta
 
 <code> $ pip install -r requirements.txt </code>
 
-All notebooks can be run autonomously. The file structure in this folder is the following:
+All notebooks can run autonomously. The file structure in this folder is the following:
 
 **Deep-TuttiFrutti_HPO_analisys.ipynb** contains the analysis of the hyperparameter optimization (HPO) done
 for the several tested base architectures. The results shown in the paper are derived from this file.
+(If the file is not properly displayed by Github, simply download it).
 
 **data**: folder containing the data sets used in this work
 
