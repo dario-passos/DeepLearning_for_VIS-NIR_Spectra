@@ -1,8 +1,7 @@
 # <b>Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra</b>
 
-In this repository I share the python code used to produce the results of our paper *[Passos, D., Mishra, P.,*
-*"Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit* 
-*near-infrared spectra", Chemometrics and Intelligent Laboratory Systems 105023, (2023)](https://doi.org/10.1016/j.chemolab.2023.105023)*.
+In this repository I share the python code used to produce the results of our paper [Passos, D., Mishra, P.,"Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit 
+near-infrared spectra", Chemometrics and Intelligent Laboratory Systems 105023, (2023)](https://doi.org/10.1016/j.chemolab.2023.105023).
 
 The results should be reproducible by using the same version of the libraries. If reproduction of the 
 results is your goal, please import and install the requirement.txt file in attach in your conda environment
