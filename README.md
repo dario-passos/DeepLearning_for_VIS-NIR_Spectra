@@ -24,6 +24,20 @@ This repository will be continuoulsy updated. At some point I'll also introduce 
 My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos).<br>
 For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
+## Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
+
+![dlc2024](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC.png)
+This workshop, dedicated to Deep Learning for NIR Chemometrics, will foster the discussion about the application of Deep Learning algorithms for developing NIR chemometric tasks, discuss current trends in this field, promote the exchange of ideas and spark future collaborations. The program includes 6 to 8 talks on the topics
+
+> 1) Model architecture optimization
+> 2) Applications of DL in Chemometrics
+> 3) Data augmentation techniques for NIR
+> 4) Model explainability
+> 5) Data fusion using DL (NIR + Image + ...)
+> 6) Deep Learning for Science 
+
+Check it out: [https://dlc-workshop2024.ualg.pt/](https://dlc-workshop2024.ualg.pt/)
+
 <hr>
 
 ## Deep Learning models in the literature
@@ -97,17 +111,5 @@ The accompanying notebooks of our work: [Passos, D., Mishra, P.,"Deep Tutti Frut
 Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I) 
 
 
-### Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
 
-![dlc2024](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC.png)
-This workshop, dedicated to Deep Learning for NIR Chemometrics, will foster the discussion about the application of Deep Learning algorithms for developing NIR chemometric tasks, discuss current trends in this field, promote the exchange of ideas and spark future collaborations. The program includes 6 to 8 talks on the topics
-
-> 1) Model architecture optimization
-> 2) Applications of DL in Chemometrics
-> 3) Data augmentation techniques for NIR
-> 4) Model explainability
-> 5) Data fusion using DL (NIR + Image + ...)
-> 6) Deep Learning for Science 
-
-Check it out: [https://dlc-workshop2024.ualg.pt/](https://dlc-workshop2024.ualg.pt/)
 ### more in the near future...
