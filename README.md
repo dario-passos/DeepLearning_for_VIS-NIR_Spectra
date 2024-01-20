@@ -26,7 +26,7 @@ For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
 ## Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
 
-![dlc2024](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC.png)
+![dlc2024](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png)
 This workshop, dedicated to Deep Learning for NIR Chemometrics, will foster the discussion about the application of Deep Learning algorithms for developing NIR chemometric tasks, discuss current trends in this field, promote the exchange of ideas and spark future collaborations. The program includes 6 to 8 talks on the topics
 
 > 1) Model architecture optimization
