@@ -25,7 +25,7 @@ My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos).<br
 For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
 ## Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
-<table>
+<table style="border-collapse: collapse;">
   <tr>
     <td width="210" style="border: none;"><img src="https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png" alt="DLC2024" width="200">
 	</td>
