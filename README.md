@@ -25,9 +25,12 @@ My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos).<br
 For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
 ## Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
-
-|![dlc2024](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png) | This workshop, dedicated to Deep Learning for NIR Chemometrics, will foster the discussion about the application of Deep Learning algorithms for developing NIR chemometric tasks, discuss current trends in this field, promote the exchange of ideas and spark future collaborations. The program includes 6 to 8 talks on the topics|
-|-------- | ------|
+<table>
+  <tr>
+    <td style="width: 300px;">![dlc2024](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png)</td>
+    <td><p> This workshop, dedicated to Deep Learning for NIR Chemometrics, will foster the discussion about the application of Deep Learning algorithms for developing NIR chemometric tasks, discuss current trends in this field, promote the exchange of ideas and spark future collaborations. The program includes 6 to 8 talks on the topics</p></td>
+  </tr>
+</table>
 
 > 1) Model architecture optimization
 > 2) Applications of DL in Chemometrics
