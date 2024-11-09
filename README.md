@@ -112,7 +112,7 @@ In terms of practical effects this means that the reported model complexity is h
 ### Deep Tutti Frutti: Exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra
 The accompanying notebooks of our work: [Passos, D., Mishra, P.,"Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra"](https://doi.org/10.1016/j.chemolab.2023.105023) (available in open access). This is a follow-up of the CNN HPO methodology developed and presented in the previous tutorial specifically aimed at dry matter prediction in a multi-fruit data set.
 
-Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I) 
+Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I). The train and test set partitions are available in the "data" folder (multifruit_train.csv and multifruit_test.csv). The first 105 columns are wavelenghts (spectra), and the two last columns are DM and Fruit Class (apple-1, kiwi-2, mango-3 and pears4).
 
 
 
