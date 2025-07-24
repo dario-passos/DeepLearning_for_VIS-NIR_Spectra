@@ -24,27 +24,10 @@ This repository will be continuoulsy updated. At some point I'll also introduce 
 My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos).<br>
 For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
-## Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
-<table style="border-collapse: collapse;">
-  <tr>
-    <td width="210" style="border: none;"><img src="https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png" alt="DLC2024" width="200">
-	</td>
-    <td style="border: none;"><p>This workshop, dedicated to Deep Learning for NIR Chemometrics, will foster the discussion about the application of Deep Learning algorithms for developing NIR chemometric tasks, discuss current trends in this field, promote the exchange of ideas and spark future collaborations. The program includes 6 to 8 talks on the topics</p></td>
-  </tr>
-</table>
-
-> 1) Model architecture optimization
-> 2) Applications of DL in Chemometrics
-> 3) Data augmentation techniques for NIR
-> 4) Model explainability
-> 5) Data fusion using DL (NIR + Image + ...)
-> 6) Deep Learning for Science 
-
-Check it out: [https://dlc-workshop2024.ualg.pt/](https://dlc-workshop2024.ualg.pt/)
 
 <hr>
 
-## Deep Learning models in the literature
+## Deep Learning models for NIR Chemometrics in the literature
 ### Bjerrum et al 2017 CNN
 
 In this notebook I try to reproduce the spectral analysis pipeline that was proposed by Bjerrum et al 2017 in "*Data Augmentation of Spectral Data for Convolutional Neural Network (CNN) Based Deep Chemometrics*" ( [paper here](https://arxiv.org/abs/1710.01927) ). 
@@ -75,7 +58,17 @@ Check the .ipynb notebook for details [CuiFearn2018_CNN/Cui_CNN.ipynb](/notebook
 
 <br>
 
+
+### Zhang, X. 2019  - DeepSpectra model
+
+In this notebook I implement the DeepSpectra model by Xiaolei Zhang and collaborator from 2019 [paper here](https://doi.org/10.1016/j.aca.2019.01.002).
+For validation purposes I attempt to reproduce the authors' original results using the corn dataset (corn.mat, downloaded from Eigenvector website).
+DeepSpectra was one of the first attempts to create an optimized architecture for NIR spectral analysis and is by far the most cited deep learning model in the field. The original code was not made available by the authors so I decided to implement it myself. The model is implemented in Tensorflow.keras 2.9 and the notebook contains all the details about the model architecture, training and validation. The notebook contains several notes about the differences between the original implementation and this one (due to the advances in the software packages) and a couple of extra experiments for comparison purposes. As always you are free to use the code and adapt it to your own work and experiments.
+Check the .ipynb notebook for details [DeepSpectra2019/DeepSpectra_model.ipynb](/notebooks/DeepSpectra2019/DeepSpectra_model.ipynb).
+
+
 ## TUTORIALS and PUBLICATIONS
+
 ### SVM hyperparameters optimization, Kaneko and Funatsu 2015
 
 In this notebook I'll show one way of performing hyperparameter optimization for Support Vector Machines (with rbf kernel) models when applied to regression problems. From experience I can say that the method works relatively well (depending on the data set of course) when compared to classical grid search and random grid search methods.
@@ -108,11 +101,35 @@ The tutorial files were updated to work with newer versions of Optuna (3.0.5), T
 Bug detected in the notebook: "2) optimization_tutorial_classification_v2.ipynb". I detected a typo in the function <code>create_model()</code> defined in section 5.1). The range for the number of DENSE layers starts at index=1 (it should start at index=0). The loop for the hyperparameter optimization (HPO) generated NUM_FC_UNITS and DROPOUT_RATE lists that start at index=0. This means that the HP in these lists that have index=0 were never considered by the CNN during the optimization because only indices>0 are used. In practice this means that when we instantiate a new model, i.e. <code>create_model(num_FC_layers, num_FC_units, filter_size, DROPOUT, reg_beta)</code> with <code>(5, [360,350,132,442,334], 3, [0.555,0.165,0.13,0.46,0.085], 1e-05)</code> the first values for lists num_FC_units (i.e. 360) and DROPOUT (i.e. 0.555) are not considered by the model. We can confirm this in section 6.1. If we change the first items on these lists when we define "model454" the prediction results is exactly the same, i.e. the CNN is not using those hyperparameters because the corresponding DENSE_0/DROPOUT_0 layer pair was never created in the first place.
 In terms of practical effects this means that the reported model complexity is higher than the real model. Our conclusion that the optimized model <code>model454 = create_model(5, [360,350,132,442,334], 3, [0.555,0.165,0.13,0.46,0.085], 1e-05)</code> had 5 optimized DENSE/DROPOUT layers means that in fact it had 4 optimized DENSE/DROPOUT layers with [350,132,442,334] / [0.165,0.13,0.46,0.085] respectively. That being said, the optimization pipeline suggested here remains valid and a useful way of dealing with CNN HPO for spectral analysis. This notebook will remain as is for the mean time for warning purposes and will be completely substituted with a corrected version after some time. Do a local search for #BUG keyword/comments in the present code to know where things will change
 
+<br>
+
+## Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
+<table style="border-collapse: collapse;">
+  <tr>
+    <td width="210" style="border: none;"><img src="https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png" alt="DLC2024" width="200">
+	</td>
+    <td style="border: none;"><p>This workshop, dedicated to Deep Learning for NIR Chemometrics, will foster the discussion about the application of Deep Learning algorithms for developing NIR chemometric tasks, discuss current trends in this field, promote the exchange of ideas and spark future collaborations. The program includes 6 to 8 talks on the topics</p></td>
+  </tr>
+</table>
+
+> 1) Model architecture optimization
+> 2) Applications of DL in Chemometrics
+> 3) Data augmentation techniques for NIR
+> 4) Model explainability
+> 5) Data fusion using DL (NIR + Image + ...)
+> 6) Deep Learning for Science 
+
+Check it out: [https://dlc-workshop2024.ualg.pt/](https://dlc-workshop2024.ualg.pt/)
+
+
+<br>
 
 ### Deep Tutti Frutti: Exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra
 The accompanying notebooks of our work: [Passos, D., Mishra, P.,"Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra"](https://doi.org/10.1016/j.chemolab.2023.105023) (available in open access). This is a follow-up of the CNN HPO methodology developed and presented in the previous tutorial specifically aimed at dry matter prediction in a multi-fruit data set.
 
 Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I). The train and test set partitions are available upon request to **puneet.mishra@wur.nl** (the dataset contains proprietary data that cannot be shared publicly at the moment).
+
+
 
 
 
