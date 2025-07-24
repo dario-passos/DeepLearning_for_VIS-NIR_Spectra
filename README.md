@@ -66,6 +66,8 @@ For validation purposes I attempt to reproduce the authors' original results usi
 DeepSpectra was one of the first attempts to create an optimized architecture for NIR spectral analysis and is by far the most cited deep learning model in the field. The original code was not made available by the authors so I decided to implement it myself. The model is implemented in Tensorflow.keras 2.9 and the notebook contains all the details about the model architecture, training and validation. The notebook contains several notes about the differences between the original implementation and this one (due to the advances in the software packages) and a couple of extra experiments for comparison purposes. As always you are free to use the code and adapt it to your own work and experiments.
 Check the .ipynb notebook for details [DeepSpectra2019/DeepSpectra_model.ipynb](/notebooks/DeepSpectra2019/DeepSpectra_model.ipynb).
 
+<br>
+<br>
 
 ## TUTORIALS and PUBLICATIONS
 
