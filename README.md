@@ -1,5 +1,7 @@
 ![Logo](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/github_card.png)
 
+# Follow are research group at [DeepLight Lab](https://deeplightlab.github.io/)
+
 # <b>Deep Learning for VIS-NIR Spectral Analysis and Chemometrics</b>
 This repository is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]) and 
 contains some of my research tests about the application of 
