@@ -3,8 +3,8 @@
 ## Follow are research group at [DeepLight Lab](https://deeplightlab.github.io/)
 
 # <b>Deep Learning for VIS-NIR Spectral Analysis and Chemometrics</b>
-This repository is part of my research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]) and 
-contains some of my research tests about the application of 
+This repository is part of my past research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]) and currently at [DeepLight Lab](https://deeplightlab.github.io/), our new research group at the University of Algarve, Portugal. 
+It contains some of my research tests about the application of 
 Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
 Here are some of my personal implementation of interesting NN architectures that can be found in the literature about 
 DeepLearning for spectral analysis. These implementations are done mainly in <code>python</code> and <code>tensorflow.keras</code> in Jupyter notebooks. In some cases I'll try to reproduce the results presented by the original paper authors as 
@@ -107,7 +107,7 @@ In terms of practical effects this means that the reported model complexity is h
 
 <br>
 
-## Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
+### Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
 <table style="border-collapse: collapse;">
   <tr>
     <td width="210" style="border: none;"><img src="https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png" alt="DLC2024" width="200">
@@ -135,6 +135,12 @@ Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-p
 
 
 
+### Tutorial on building CNNs for NIR spectral analysis and chemometrics (November 2026)
+This tutorial was presented at the international course on "Training AI for Spectral and Hyperspectral Data Processing" at the Waveningen University and Resarch, Netherlands, November 2026. <br>
+
+We tackle the problem of predicting the concentration of a chemical compound from its NIR spectrum using 1D CNNs. We will use a dataset of NIR spectra and their corresponding concentrations to train and evaluate our models. The tutorial will cover data preprocessing, model building, hyperparameter optimization, and model evaluation. At the end we also touch on the topic of explainable AI and Autoencoders for spectral data. The tutorial is designed to run on Google Colab, but in order to do so, you will have to upload the dataset to your Google Drive and mount it in Colab (or you can run everything locally if you prefer and if you know what to do with it, there is a requirements.txt file that you can use to install the necessary packages).
+
+[Tutorial files are available here](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Tutorial_on_CNN_for_NIR)
 
 
 ### more in the near future...
