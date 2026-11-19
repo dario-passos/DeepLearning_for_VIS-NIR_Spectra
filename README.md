@@ -3,9 +3,9 @@
 ## Follow our research group at [DeepLight Lab](https://deeplightlab.github.io/)
 
 # <b>Deep Learning for VIS-NIR Spectral Analysis and Chemometrics</b>
-This repository is part of my past research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]) and currently at [DeepLight Lab](https://deeplightlab.github.io/), our new research group at the University of Algarve, Portugal. 
-It contains some of my research tests about the application of 
-Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
+This repository is part of my past research at [CEOT@UAlg](https://www.ceot.ualg.pt/research-groups/sensing-and-biology]). CEOT closed operations in December 2024 and me and a couple of colleagues founded [DeepLight Lab](https://deeplightlab.github.io/), our (still non-funded) new research group at the University of Algarve, Portugal to keep working on Deep Learning for VIS-NIR spectral analysis and chemometrics. <br>
+
+This repository contains some of my research tests about the application of Deep Learning architectures (NN models) and other machine learning models applied to the analysis of VIS-NIR spectral data. 
 Here are some of my personal implementation of interesting NN architectures that can be found in the literature about 
 DeepLearning for spectral analysis. These implementations are done mainly in <code>python</code> and <code>tensorflow.keras</code> in Jupyter notebooks. In some cases I'll try to reproduce the results presented by the original paper authors as 
 a way to validate my implementation before applying the model to my own datasets. The folder "images" contains schematics of the NN models implemented in the notebooks. 
@@ -133,6 +133,11 @@ The accompanying notebooks of our work: [Passos, D., Mishra, P.,"Deep Tutti Frut
 
 Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I). The train and test set partitions are available upon request to **puneet.mishra@wur.nl** (the dataset contains proprietary data that cannot be shared publicly at the moment).
 
+
+### NIRBENCH_DL_v0.1: A benchmark for deep learning in NIR chemometrics (September 2026)
+As a part of the DeepLight Lab mission, I launched NIRBENCH_DL_v01, a benchmark to probe the generalization capabilities of different deep learning architectures applied to different chemometric tasks in NIR spectroscopy (for regression). The benchmark compares the out-of-the-box performance of several deep learning architectures published in the field of NIR chemometrics over the past few years on 30 different chemometric tasks (17 independents datasets) against three baselines models (optimized PLS, tabpfn-3.5 and tabicl-v2). The benchmark is designed to be easily extensible and reproducible. As part of the benchmark, I share keras implementations (ready to use) of several models (DeepSpectra, IPA, CNNs, SpectraFormer, etc.) ready to use for your own research. The benchmark is still under development and will be updated in the future with new datasets and models. There is a live leadearboard at: https://deeplightlab.github.io/nirbench01/index.html <br>
+
+[NIRBENCH_DL_v0.1](https://github.com/DeepLightLab/NIRBENCH_DL_v0.1)
 
 
 ### Tutorial on building CNNs for NIR spectral analysis and chemometrics (November 2026)
