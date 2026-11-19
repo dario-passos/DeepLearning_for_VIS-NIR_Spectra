@@ -31,7 +31,7 @@ For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 
 ## Deep Learning models for NIR Chemometrics in the literature
 
-### <img src="images/item.png" width="50" height="50" style="vertical-align: middle; margin-right: 10px;"> Bjerrum et al 2017 CNN
+### <img src="images/item3.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> Bjerrum et al 2017 CNN
 
 In this notebook I try to reproduce the spectral analysis pipeline that was proposed by Bjerrum et al 2017 in "*Data Augmentation of Spectral Data for Convolutional Neural Network (CNN) Based Deep Chemometrics*" ( [paper here](https://arxiv.org/abs/1710.01927) ). 
 
@@ -49,7 +49,7 @@ cells (the training steps outputs are visible).
 
 <br>
 
-### Cui, Fearn 2018 CNN
+### <img src="images/item3.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> Cui, Fearn 2018 CNN
 
 This notebook attempts to replicate section section 5.3 of "*Modern practical convolutional neural networks for multivariate regression: Applications to NIR calibration*" ( [paper here](https://www.sciencedirect.com/science/article/pii/S0169743918301382?via%3Dihub) ) by Cui, C. and Fearn, T. 2018. 
 I implemented the CNN architecture that the authors suggest for spectral analysis and applied it to a "small dataset". The data used here (named data set 3 by the authors) was downloaded from the [original source](http://www.models.kvl.dk/wheat_kernels). For details and references about the data check the source website or the "Data description.txt" file included.
@@ -62,7 +62,7 @@ Check the .ipynb notebook for details [CuiFearn2018_CNN/Cui_CNN.ipynb](/notebook
 <br>
 
 
-### Zhang, X. 2019  - DeepSpectra model
+### <img src="images/item3.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;">Zhang, X. 2019  - DeepSpectra model
 
 In this notebook I implement the DeepSpectra model by Xiaolei Zhang and collaborator from 2019 [paper here](https://doi.org/10.1016/j.aca.2019.01.002).
 For validation purposes I attempt to reproduce the authors' original results using the corn dataset (corn.mat, downloaded from Eigenvector website).
@@ -74,7 +74,7 @@ Check the .ipynb notebook for details [DeepSpectra2019/DeepSpectra_model.ipynb](
 
 ## TUTORIALS and PUBLICATIONS
 
-### SVM hyperparameters optimization, Kaneko and Funatsu 2015
+### <img src="images/item1.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> SVM hyperparameters optimization, Kaneko and Funatsu 2015
 
 In this notebook I'll show one way of performing hyperparameter optimization for Support Vector Machines (with rbf kernel) models when applied to regression problems. From experience I can say that the method works relatively well (depending on the data set of course) when compared to classical grid search and random grid search methods.
 
@@ -90,7 +90,7 @@ Check the .ipynb notebook for details [KanekoFunatsu2015_SVROpt/SVM_optimization
 
 <br>
 
-### Tutorial on automated optimization of deep spectral modelling for regression and classification (update .v2)
+### <img src="images/item1.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> Tutorial on automated optimization of deep spectral modelling for regression and classification (update .v2)
 In this tutorial we show how to implement and optimized the hyperparameteres of a deep learning model (CNN) using advanced Baeysian Optimization techniques. The models are implemented in Tensorflow 2 and python and are optimized using the implementations of TPE (Tree-structured Parzen Estimator) and Hyperband algorithms available in [Optuna](https://optuna.org/). The repository files contain notebooks that are complementary to the official publication <b>*Passos, D., Mishra, P., "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*, Chemometrics and Intelligent Laboratory Systems, Volume 223, 15 April 2022, 104520. [Open access Article](https://doi.org/10.1016/j.chemolab.2022.104520).</b> The tutorial files are self-contained but some theoretical concepts that are explained in the published manuscript might be useful to read. You are free to use the contained information and adapt the accompanying code to your own work, but if you do so, we appreciate that you cite the above mentioned paper. Enjoy...
 
 Check [the tutorial files here](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Tutorial_on_DL_optimization)
@@ -105,7 +105,7 @@ In terms of practical effects this means that the reported model complexity is h
 
 <br>
 
-### Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
+### <img src="images/item1.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> Deep Learning for NIR Chemometrics Workshop (Univ. Algarve, Faro PT, 21 March 2024)
 <table style="border-collapse: collapse;">
   <tr>
     <td width="210" style="border: none;"><img src="https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/blob/master/images/logo_DLC2024.png" alt="DLC2024" width="200">
@@ -126,21 +126,21 @@ Check it out: [https://dlc-workshop2024.ualg.pt/](https://dlc-workshop2024.ualg.
 
 <br>
 
-### Deep Tutti Frutti: Exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra
+### <img src="images/item2.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> Deep Tutti Frutti: Exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra
 The accompanying notebooks of our work: [Passos, D., Mishra, P.,"Deep Tutti Frutti: exploring CNN architectures for dry matter prediction in fruit from multi-fruit near-infrared spectra"](https://doi.org/10.1016/j.chemolab.2023.105023) (available in open access). This is a follow-up of the CNN HPO methodology developed and presented in the previous tutorial specifically aimed at dry matter prediction in a multi-fruit data set.
 
 Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I). The train and test set partitions are available upon request to **puneet.mishra@wur.nl** (the dataset contains proprietary data that cannot be shared publicly at the moment).
 
 <br>
 
-### NIRBENCH_DL_v0.1: A benchmark for deep learning in NIR chemometrics (September 2026)
+### <img src="images/item3.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> NIRBENCH_DL_v0.1: A benchmark for deep learning in NIR chemometrics (September 2026)
 As a part of the DeepLight Lab mission, I launched NIRBENCH_DL_v01, a benchmark to probe the generalization capabilities of different deep learning architectures applied to different chemometric tasks in NIR spectroscopy (for regression). The benchmark compares the out-of-the-box performance of several deep learning architectures published in the field of NIR chemometrics over the past few years on 30 different chemometric tasks (17 independents datasets) against three baselines models (optimized PLS, tabpfn-3.5 and tabicl-v2). The benchmark is designed to be easily extensible and reproducible. As part of the benchmark, I share keras implementations (ready to use) of several models (DeepSpectra, IPA, CNNs, SpectraFormer, etc.) ready to use for your own research. The benchmark is still under development and will be updated in the future with new datasets and models. There is a live leadearboard at: https://deeplightlab.github.io/nirbench01/index.html <br>
 
 [NIRBENCH_DL_v0.1](https://github.com/DeepLightLab/NIRBENCH_DL_v0.1)
 
 <br>
 
-### Tutorial on building CNNs for NIR spectral analysis and chemometrics (November 2026)
+### <img src="images/item1.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> Tutorial on building CNNs for NIR spectral analysis and chemometrics (November 2026)
 This tutorial was presented at the international course on "Training AI for Spectral and Hyperspectral Data Processing" at the Waveningen University and Resarch, Netherlands, November 2026. <br>
 
 We tackle the problem of predicting the concentration of a chemical compound from its NIR spectrum using 1D CNNs. We will use a dataset of NIR spectra and their corresponding concentrations to train and evaluate our models. The tutorial will cover data preprocessing, model building, hyperparameter optimization, and model evaluation. At the end we also touch on the topic of explainable AI and Autoencoders for spectral data. The tutorial is designed to run on Google Colab, but in order to do so, you will have to upload the dataset to your Google Drive and mount it in Colab (or you can run everything locally if you prefer and if you know what to do with it, there is a requirements.txt file that you can use to install the necessary packages).
