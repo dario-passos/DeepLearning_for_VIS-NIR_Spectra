@@ -62,7 +62,7 @@ Check the .ipynb notebook for details [CuiFearn2018_CNN/Cui_CNN.ipynb](/notebook
 <br>
 
 
-### <img src="images/item3.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;">Zhang, X. 2019  - DeepSpectra model
+### <img src="images/item3.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> Zhang, X. 2019  - DeepSpectra model
 
 In this notebook I implement the DeepSpectra model by Xiaolei Zhang and collaborator from 2019 [paper here](https://doi.org/10.1016/j.aca.2019.01.002).
 For validation purposes I attempt to reproduce the authors' original results using the corn dataset (corn.mat, downloaded from Eigenvector website).
@@ -134,9 +134,7 @@ Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-p
 <br>
 
 ### <img src="images/item3.png" width="40" height="40" style="vertical-align: middle; margin-right: 10px;"> NIRBENCH_DL_v0.1: A benchmark for deep learning in NIR chemometrics (September 2026)
-As a part of the DeepLight Lab mission, I launched NIRBENCH_DL_v01, a benchmark to probe the generalization capabilities of different deep learning architectures applied to different chemometric tasks in NIR spectroscopy (for regression). The benchmark compares the out-of-the-box performance of several deep learning architectures published in the field of NIR chemometrics over the past few years on 30 different chemometric tasks (17 independents datasets) against three baselines models (optimized PLS, tabpfn-3.5 and tabicl-v2). The benchmark is designed to be easily extensible and reproducible. As part of the benchmark, I share keras implementations (ready to use) of several models (DeepSpectra, IPA, CNNs, SpectraFormer, etc.) ready to use for your own research. The benchmark is still under development and will be updated in the future with new datasets and models. There is a live leadearboard at: https://deeplightlab.github.io/nirbench01/index.html <br>
-
-[NIRBENCH_DL_v0.1](https://github.com/DeepLightLab/NIRBENCH_DL_v0.1)
+As a part of the DeepLight Lab mission, I launched NIRBENCH_DL_v01, a benchmark to probe the generalization capabilities of different deep learning architectures applied to different chemometric tasks in NIR spectroscopy (for regression). The benchmark compares the out-of-the-box performance of several deep learning architectures published in the field of NIR chemometrics over the past few years on 30 different chemometric tasks (17 independents datasets) against three baselines models (optimized PLS, tabpfn-3.5 and tabicl-v2). The benchmark is designed to be easily extensible and reproducible. As part of the benchmark, I share keras implementations (ready to use) of several models (DeepSpectra, IPA, CNNs, SpectraFormer, etc.) ready to use for your own research. The benchmark is still under development and will be updated in the future with new datasets and models. There is a live leadearboard at: https://deeplightlab.github.io/nirbench01/index.html and the repository is available at [NIRBENCH_DL_v0.1](https://github.com/DeepLightLab/NIRBENCH_DL_v0.1).
 
 <br>
 
@@ -147,5 +145,6 @@ We tackle the problem of predicting the concentration of a chemical compound fro
 
 [Tutorial files are available here](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Tutorial_on_CNN_for_NIR)
 
-
+<br>
+<br>
 ### more in the near future...
