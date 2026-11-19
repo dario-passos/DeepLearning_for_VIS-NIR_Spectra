@@ -31,7 +31,7 @@ tensorflow-estimator==2.15.0
 tensorflow-io-gcs-filesystem==0.37.1
 tinycss2==1.5.1
 torchview==0.2.7
-transformers==4.55.2
+transformers>=5.10.0
 ultralytics==8.3.181
 uri-template==1.3.0
 webcolors==25.10.0
