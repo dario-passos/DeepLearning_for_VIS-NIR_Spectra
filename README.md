@@ -30,7 +30,8 @@ For some exchange of ideas, drop me an email (dmpassos @ ualg.pt)<br>
 <hr>
 
 ## Deep Learning models for NIR Chemometrics in the literature
-### Bjerrum et al 2017 CNN
+
+### <img src="images/item.png" width="50" height="50" style="vertical-align: middle; margin-right: 10px;"> Bjerrum et al 2017 CNN
 
 In this notebook I try to reproduce the spectral analysis pipeline that was proposed by Bjerrum et al 2017 in "*Data Augmentation of Spectral Data for Convolutional Neural Network (CNN) Based Deep Chemometrics*" ( [paper here](https://arxiv.org/abs/1710.01927) ). 
 
@@ -77,12 +78,7 @@ Check the .ipynb notebook for details [DeepSpectra2019/DeepSpectra_model.ipynb](
 
 In this notebook I'll show one way of performing hyperparameter optimization for Support Vector Machines (with rbf kernel) models when applied to regression problems. From experience I can say that the method works relatively well (depending on the data set of course) when compared to classical grid search and random grid search methods.
 
-The method is based on the theoretical foundations of
-Cherkassky, V.; Ma, Y. Practical selection of SVM parameters and noise estimation for SVM regression. Neural Networks 2004, 17, 113 – 126
-
-and further expanded by
-
-Kaneko, H.; Funatsu, K. Fast optimization of hyperparameters for support vector regressionmodels with highly predictive ability. Chemometr. Intell. Lab. 2015, 142, 64 – 69. Kaneko and Funatsu (2015)
+The method is based on the theoretical foundations of Cherkassky, V.; Ma, Y. Practical selection of SVM parameters and noise estimation for SVM regression. Neural Networks 2004, 17, 113 – 126 and further expanded by Kaneko, H.; Funatsu, K. Fast optimization of hyperparameters for support vector regressionmodels with highly predictive ability. Chemometr. Intell. Lab. 2015, 142, 64 – 69. Kaneko and Funatsu (2015).
 
 Input: x - vector feature data y - vector label data Output: Optimum parameters C, gamma and epsilon. NOTE: Be sure to import all relevant libs before running. Also take into consideration that this methods optimizes the hyperparameters for scaled x in the interval [0,1]. This is done using MinMaxScaler(). The input x values must already be in that interval.
 
@@ -91,6 +87,8 @@ Support Vector Machines for regression has been used in recent years with great 
 In Kaneko and Funatsu 2015, the authors show that a good estimate of parameter  𝐶  can be obtained analytically from the statistical distribution of the calibration data and, parameter  𝜖  can be obtained directly from a noise estimation in the data based on the mean squared error of a k Nearest Neighbors regressor algorithm. The theoretical value of  𝛾  is determined by maximizing the variance of kernel similarity diversity as detailed in Cherkassky and Ma 2004. However, these theoretical parameters, are not optimized for prediction because of the statistical fluctuations that can exist in different sections of the calibration/training data. Fine-tuned values can be found in by probing an interval around these theoretical values. This part of the optimization process takes two hyper-parameters (e.g.  𝐶  and  𝛾 ) as constant (equal to their theoretical values) and optimizes the 3rd one (e.g.  𝜖 ) by Random Grid Search (RGS) and minimization of RMSE using 5k cross-validation. This is done 3 times optimizing all hyper-parameters. It seems that for this method to work reliably the input data should lie in the [0,1] range.
 
 Check the .ipynb notebook for details [KanekoFunatsu2015_SVROpt/SVM_optimization.ipynb](/notebooks/KanekoFunatsu2015_SVROpt/SVM_optimization.ipynb).
+
+<br>
 
 ### Tutorial on automated optimization of deep spectral modelling for regression and classification (update .v2)
 In this tutorial we show how to implement and optimized the hyperparameteres of a deep learning model (CNN) using advanced Baeysian Optimization techniques. The models are implemented in Tensorflow 2 and python and are optimized using the implementations of TPE (Tree-structured Parzen Estimator) and Hyperband algorithms available in [Optuna](https://optuna.org/). The repository files contain notebooks that are complementary to the official publication <b>*Passos, D., Mishra, P., "A tutorial on automatic hyperparameter tuning of deep spectral modelling for regression and classification tasks"*, Chemometrics and Intelligent Laboratory Systems, Volume 223, 15 April 2022, 104520. [Open access Article](https://doi.org/10.1016/j.chemolab.2022.104520).</b> The tutorial files are self-contained but some theoretical concepts that are explained in the published manuscript might be useful to read. You are free to use the contained information and adapt the accompanying code to your own work, but if you do so, we appreciate that you cite the above mentioned paper. Enjoy...
@@ -133,12 +131,14 @@ The accompanying notebooks of our work: [Passos, D., Mishra, P.,"Deep Tutti Frut
 
 Check the files here: [Deep Tutti Frutti I notebooks](https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra/tree/master/notebooks/Deep-Tuttifrutti_I). The train and test set partitions are available upon request to **puneet.mishra@wur.nl** (the dataset contains proprietary data that cannot be shared publicly at the moment).
 
+<br>
 
 ### NIRBENCH_DL_v0.1: A benchmark for deep learning in NIR chemometrics (September 2026)
 As a part of the DeepLight Lab mission, I launched NIRBENCH_DL_v01, a benchmark to probe the generalization capabilities of different deep learning architectures applied to different chemometric tasks in NIR spectroscopy (for regression). The benchmark compares the out-of-the-box performance of several deep learning architectures published in the field of NIR chemometrics over the past few years on 30 different chemometric tasks (17 independents datasets) against three baselines models (optimized PLS, tabpfn-3.5 and tabicl-v2). The benchmark is designed to be easily extensible and reproducible. As part of the benchmark, I share keras implementations (ready to use) of several models (DeepSpectra, IPA, CNNs, SpectraFormer, etc.) ready to use for your own research. The benchmark is still under development and will be updated in the future with new datasets and models. There is a live leadearboard at: https://deeplightlab.github.io/nirbench01/index.html <br>
 
 [NIRBENCH_DL_v0.1](https://github.com/DeepLightLab/NIRBENCH_DL_v0.1)
 
+<br>
 
 ### Tutorial on building CNNs for NIR spectral analysis and chemometrics (November 2026)
 This tutorial was presented at the international course on "Training AI for Spectral and Hyperspectral Data Processing" at the Waveningen University and Resarch, Netherlands, November 2026. <br>
